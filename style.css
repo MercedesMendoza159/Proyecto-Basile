@@ -380,36 +380,6 @@ a:hover {
 
 /*Fin de carrito*/
 
-/*footer*/
-
-.section-footer {
-    background-color: #416A96;
-    color: white;
-    display: flex;
-    margin-top: 100px;
-    width: 100%;
-    height: auto;
-    justify-content: space-around;
-}
-
-.div-footer {
-    display: flex;
-    align-items: center;
-    margin: 20px;
-}
-
-.ul-footer {
-    list-style: none;
-    font-family: sans-serif;
-    padding: 2px;
-}
-
-.footer {
-    display: flex;
-    margin: 20px;
-}
-
-/*fin de footer*/
 
 /* responsive movile*/
 
@@ -463,6 +433,8 @@ a:hover {
         font-size: 10px;
     }
 }
+
+/*Responsive Tablet*/
 
 @media only screen and (min-width:601px) and (max-width:1000px){
     .p-banner {
