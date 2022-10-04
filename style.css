@@ -40,7 +40,7 @@ a:active {
 }
 
 a:hover {
-   color: white!important;
+    color: white !important;
 }
 
 .li-padding {
@@ -232,54 +232,16 @@ a:hover {
 
 /*Contacto*/
 
-.main-formulario {
-    width: 50%;
-    margin: 20px auto;
-    color: gray;
-    background-color: #AFCABB;
-    display: grid;
-    border: solid 1px #AFCABB;
-    box-shadow: 5px 5px 10px #AFCABB;
-    border-radius: 10px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(9, 1fr);
-}
-
 .formulario {
-    border: solid 1px white;
-    background-color: white;
-    font-family: sans-serif;
-    font-size: 15px;
-    padding: 5px;
-    text-align: start;
-    border-radius: 5px;
-    margin: 30px;
+    margin: 10px;
+    border: #3F3F3F;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px gray;
 }
 
-.nombre {
-    grid-column: 1 / 3;
-}
-
-.telefono {
-    grid-column: 3 / 5;
-}
-
-.mail {
-    grid-column: 1 / 5;
-}
-
-.asunto {
-    grid-column: 1 / 5;
-}
-
-.consulta {
-    grid-column: 1 / 5;
-    grid-row: 4 / 9;
-}
-
-.enviar {
-    grid-column: 4 / 5;
-    text-align: center;
+.boton-enviar {
+    margin: 10px;
+    text-align: right;
 }
 
 /*Fin de contacto*/
@@ -370,6 +332,7 @@ a:hover {
 .div-subtotal {
     grid-column: 3 / 4;
 }
+
 .continuar {
     grid-column: 4 / 5;
     width: 80px;
@@ -380,6 +343,10 @@ a:hover {
 }
 
 /*Fin de carrito*/
+
+.fa-location {
+    padding: 5px;
+}
 
 
 /* responsive movile*/
@@ -425,11 +392,11 @@ a:hover {
     .productos {
         grid-column: 1 / 2;
     }
-    
+
     .p-titulo-prod {
         font-size: 15px;
     }
-    
+
     .p-desc-prod {
         font-size: 10px;
     }
@@ -437,7 +404,7 @@ a:hover {
 
 /*Responsive Tablet*/
 
-@media only screen and (min-width:601px) and (max-width:1000px){
+@media only screen and (min-width:601px) and (max-width:1000px) {
     .p-banner {
         font-size: 50px;
     }
@@ -482,13 +449,12 @@ a:hover {
     .productos {
         grid-column: 1 / 4;
     }
-    
+
     .p-titulo-prod {
         font-size: 15px;
     }
-    
+
     .p-desc-prod {
         font-size: 10px;
     }
 }
-
