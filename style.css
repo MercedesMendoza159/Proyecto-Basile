@@ -140,37 +140,9 @@ a:hover {
     padding-left: 30px;
 }
 
+
 /*Fin del index*/
 
-/*Nosotros*/
-
-.div-nosotros {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-bottom: 50px;
-    border-bottom: 1px solid gray
-}
-
-.encabezado-nosotros {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    text-align: center;
-    margin: 40px;
-    font-size: 40px;
-}
-
-.p-nosotros {
-    margin: 20px;
-    text-align: justify;
-    font-size: 20px;
-    font-family: sans-serif;
-    color: gray;
-    font-weight: 100;
-}
-
-/*fin de nosotros*/
 
 /*Productos*/
 
@@ -227,6 +199,7 @@ a:hover {
     right: 10%;
     bottom: 8%;
 }
+
 
 /*fin de productos*/
 
@@ -456,5 +429,19 @@ a:hover {
 
     .p-desc-prod {
         font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1015px) {
+    .maps {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .maps-basile{
+        margin: 10px;
+        width: 100%;
+        margin-bottom: 30px;
     }
 }
