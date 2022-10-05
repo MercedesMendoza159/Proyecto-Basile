@@ -317,10 +317,6 @@ a:hover {
 
 /*Fin de carrito*/
 
-.fa-location {
-    padding: 5px;
-}
-
 
 /* responsive movile*/
 
@@ -372,6 +368,10 @@ a:hover {
 
     .p-desc-prod {
         font-size: 10px;
+    }
+
+    .img-macet {
+        width: 100%;
     }
 }
 
