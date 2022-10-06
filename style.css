@@ -157,7 +157,7 @@ a:hover {
 
 .productos {
     grid-column: 1 / 4;
-    margin: 20px;
+    margin: 30px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 40px;
@@ -221,99 +221,10 @@ a:hover {
 
 /*Carrito*/
 
-.main-enc-carrito {
-    width: 60%;
-    height: auto;
-    margin: 20px auto;
-    color: gray;
-    display: grid;
-    border: solid 1px #AFCABB;
-    box-shadow: 5px 5px 10px black;
-    grid-template-columns: repeat(4, 1fr);
+.calcular{
+    border-bottom: solid 1px gray;
 }
 
-.carrito {
-    border: solid 1px white;
-    background-color: white;
-    font-family: sans-serif;
-    font-size: 15px;
-    padding: 5px;
-    text-align: start;
-    margin: 10px;
-}
-
-.div-cantidad {
-    grid-column: 3 / 4;
-}
-
-.main-primer-producto {
-    width: 60%;
-    margin: 20px auto;
-    color: gray;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-}
-
-
-.img-set {
-    width: 40%;
-    height: auto;
-    box-shadow: 1px 1px 2px black;
-    grid-column: 1 / 2;
-    grid-row: 1 / 1;
-}
-
-.div-set-maceteros {
-    grid-column: 2 / 3;
-    grid-row: 1 / 1;
-}
-
-.img-c-alfombra {
-    width: 40%;
-    height: auto;
-    box-shadow: 1px 1px 2px black;
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-}
-
-.div-envio {
-    grid-column: 1 / 1;
-    grid-row: 3 / 4;
-}
-
-.div-calcular {
-    width: 70px;
-    height: 30px;
-    border: solid 1px gray;
-    box-shadow: 1px 1px 1px gray;
-    grid-column: 3 / 4;
-    border-radius: 3px;
-}
-
-.main-precio-final {
-    width: 60%;
-    height: auto;
-    margin: 20px auto;
-    border-top: solid 1px gray;
-    color: gray;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-}
-
-.div-subtotal {
-    grid-column: 3 / 4;
-}
-
-.continuar {
-    grid-column: 4 / 5;
-    width: 80px;
-    height: 30px;
-    border: solid 1px gray;
-    box-shadow: 1px 1px 1px gray;
-    border-radius: 3px;
-}
 
 /*Fin de carrito*/
 
@@ -441,4 +352,11 @@ a:hover {
         width: 100%;
         margin-bottom: 30px;
     }
+}
+
+@media only screen and (max-width: 2000px){
+    .espacio-en-blanco{
+        visibility: hidden;
+    }
+    
 }
