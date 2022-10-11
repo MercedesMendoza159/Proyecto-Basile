@@ -1,0 +1,119 @@
+/*sass*/
+header .header-logo {
+  width: 15%;
+  height: auto;
+  display: flex;
+}
+header .ul-menu .list {
+  border-radius: 10px;
+  margin: 20px;
+}
+header .ul-menu .li-hover:hover {
+  transform: scale(1.1);
+  background-color: #416A96;
+  color: white;
+}
+header .ul-menu .li-trans {
+  transition-property: all;
+  transition-duration: 2s;
+}
+header .ul-menu a:hover {
+  color: white !important;
+}
+
+/*fin de header*/
+/*index*/
+.main-banner .div-banner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: auto;
+}
+.main-banner .div-banner .banner {
+  display: grid;
+  width: 100%;
+}
+.main-banner .div-banner .banner .banner-primera {
+  width: 100%;
+  height: auto;
+}
+.main-banner .div-banner .banner .banner-segunda {
+  width: 100%;
+  height: auto;
+}
+.main-banner .div-banner .banner .banner-tercera {
+  width: 100%;
+  height: auto;
+}
+
+.main-cards {
+  display: grid;
+  justify-content: center;
+}
+.main-cards .div-card-index {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  height: 20% auto;
+  margin: 40px;
+}
+.main-cards .div-card-index .card {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 20px;
+  width: 300px;
+  height: 400px;
+  margin: 30px;
+}
+.main-cards .div-card-index .card .titulo-card {
+  margin: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  color: #416A96;
+}
+.main-cards .div-card-index .card .img-card {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+}
+.main-cards .div-card-index .card .p-card {
+  margin: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 400;
+  color: gray;
+}
+@media only screen and (max-width: 600px) {
+  .main-cards .div-card-index {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-cards .titulo-card {
+    font-size: 10px;
+    text-align: center;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 950px) {
+  .main-cards .div-card-index {
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+
+/*fin de index*/
+/*nosotros*/
+.titulo {
+  margin: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
