@@ -1,4 +1,4 @@
-/*sass*/
+/*import*/
 header .header-logo {
   width: 15%;
   height: auto;
@@ -11,18 +11,43 @@ header .ul-menu .list {
 header .ul-menu .li-hover:hover {
   transform: scale(1.1);
   background-color: #416A96;
-  color: white;
 }
 header .ul-menu .li-trans {
   transition-property: all;
   transition-duration: 2s;
 }
 header .ul-menu a:hover {
-  color: white !important;
+  color: white;
 }
 
-/*fin de header*/
-/*index*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #191919;
+  color: white;
+}
+footer .footer {
+  text-align: center;
+}
+footer .footer .div-footer {
+  text-align: center;
+}
+footer .footer .div-footer div .titulo-footer {
+  color: gray;
+}
+footer .footer .div-footer div .margin-footer {
+  margin: 20px;
+  color: white;
+  font-weight: 400;
+}
+footer .footer .div-footer div .margin-footer .text-footer {
+  text-decoration: none;
+  color: white;
+}
+
 .main-banner .div-banner {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -53,8 +78,8 @@ header .ul-menu a:hover {
 .main-cards .div-card-index {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 70%;
-  height: 20% auto;
+  width: 80%;
+  height: 20px auto;
   margin: 40px;
 }
 .main-cards .div-card-index .card {
@@ -102,18 +127,125 @@ header .ul-menu a:hover {
 }
 @media screen and (min-width: 601px) and (max-width: 950px) {
   .main-cards .div-card-index {
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/*fin de index*/
-/*nosotros*/
 .titulo {
   margin: 30px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 40px;
   text-align: center;
+}
+
+.div-productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 65%;
+  margin: 20px auto;
+  padding: 10px;
+  gap: 30px;
+}
+.div-productos .productos {
+  grid-column: 1/4;
+  margin: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+}
+.div-productos .contenedor-prod {
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px gray;
+  position: relative;
+  display: grid;
+  justify-items: center;
+}
+.div-productos .contenedor-prod:hover {
+  transform: scale(1.1);
+  background-color: #416A96;
+  transition-property: all;
+  transition-duration: 2s;
+  color: white;
+}
+.div-productos .contenedor-prod .img-prod {
+  width: 95%;
+  height: auto;
+  object-fit: cover;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
+}
+.div-productos .contenedor-prod .p-titulo-prod {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 10px;
+}
+.div-productos .contenedor-prod .precio-carrito {
+  display: flex;
+  align-content: flex-end;
+}
+.div-productos .contenedor-prod .precio-carrito .carrito {
+  color: black;
+}
+.div-productos .contenedor-prod .precio-carrito .carrito:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 2s;
+  color: white;
+}
+.div-productos .contenedor-prod .precio-carrito .p-desc-prod {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #3F3F3F;
+  padding: 5px;
+}
+.div-productos .contenedor-prod .precio-carrito .p-desc-prod:hover {
+  transform: scale(1.1);
+  background-color: #416A96;
+  transition-property: all;
+  transition-duration: 2s;
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .div-productos .div-productos {
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px;
+    gap: 30px;
+  }
+  .div-productos .contenedor-prod {
+    grid-column: 1/4;
+  }
+  .div-productos .p-titulo-prod {
+    font-size: 15px;
+  }
+  .div-productos .p-desc-prod {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+  .div-productos .productos {
+    font-size: 20px;
+  }
+  .div-productos .div-productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px;
+    gap: 30px;
+  }
+  .div-productos .contenedor-prod {
+    grid-column: 1/2;
+  }
+  .div-productos .p-titulo-prod {
+    font-size: 15px;
+  }
+  .div-productos .p-desc-prod {
+    font-size: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

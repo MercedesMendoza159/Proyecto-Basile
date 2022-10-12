@@ -1,0 +1,104 @@
+.main-banner {
+    .div-banner {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        height: auto;
+
+        .banner {
+            display: grid;
+            width: 100%;
+
+            .banner-primera {
+                width: 100%;
+                height: auto;
+            }
+
+            .banner-segunda {
+                width: 100%;
+                height: auto;
+            }
+
+            .banner-tercera {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+.main-cards {
+    display: grid;
+    justify-content: center;
+
+
+    .div-card-index {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 80%;
+        height: 20px auto;
+        margin: 40px;
+
+        .card {
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            box-shadow: 5px 5px 10px gray;
+            border-radius: 20px;
+            width: 300px;
+            height: 400px;
+            margin: 30px;
+
+            .titulo-card {
+                margin: 10px;
+                font-family: sans-serif;
+                font-size: 20px;
+                text-align: center;
+                font-weight: 600;
+                color: #416A96;
+            }
+
+            .img-card {
+                width: 150px;
+                height: auto;
+                margin: 10px;
+                padding: 10px;
+            }
+
+            .p-card {
+                margin: 10px;
+                font-family: sans-serif;
+                font-size: 15px;
+                text-align: center;
+                font-weight: 400;
+                color: gray;
+            }
+        }
+    }
+
+ 
+    @media only screen and (max-width:600px) {
+
+
+        .div-card-index {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .titulo-card {
+            font-size: 10px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+    }
+
+    @media screen and (min-width:601px) and (max-width:950px) {
+        .div-card-index {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .card-responsive{
+            
+        }
+    }
+}

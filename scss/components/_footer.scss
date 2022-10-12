@@ -1,0 +1,26 @@
+
+footer{
+    background-color: #191919;
+    color: white;
+    .footer{
+        text-align: center;
+        .div-footer{
+            text-align: center;
+            div{
+                .titulo-footer{
+                    color: gray;
+                }
+                .margin-footer{
+                    margin: 20px;
+                    color: white;
+                    font-weight: 400;
+                    
+                    .text-footer{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

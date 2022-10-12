@@ -1,0 +1,29 @@
+header {
+    .header-logo {
+        width: 15%;
+        height: auto;
+        display: flex;
+    }
+
+    .ul-menu {
+        .list {
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        .li-hover:hover {
+            transform: scale(1.1);
+            background-color: #416A96;
+            
+        }
+
+        .li-trans {
+            transition-property: all;
+            transition-duration: 2s;
+        }
+
+        a:hover {
+            color: white;
+        }
+    }
+}
