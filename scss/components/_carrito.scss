@@ -1,0 +1,25 @@
+@import '../base/listas';
+@import '../base/estilosGenerales';
+
+.main-carrito{
+    .contenedor-principal{
+        .calcular{
+            border-bottom: solid 1px gray;
+        }
+        .total{
+            padding-bottom: 20px;
+        }
+        .precio{
+            padding-bottom: 20px;
+        }
+
+    }
+
+    @media only screen and (max-width: 2000px){
+        .espacio-en-blanco{
+            visibility: hidden;
+        }
+        
+    }
+}
+

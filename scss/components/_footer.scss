@@ -1,6 +1,7 @@
+@import '../base/listas';
 
 footer{
-    background-color: #191919;
+    background-color: nth($colores,4);
     color: white;
     .footer{
         text-align: center;

@@ -2,3 +2,19 @@
    margin: 0; 
    padding: 0;
 }
+
+h1{
+   grid-column: 1 / 4;
+   margin: 30px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   font-size: 40px;
+   text-align: center;
+}
+
+.contenedor-principal{
+   margin: 10px;
+   border: #3F3F3F;
+   border-radius: 15px;
+   box-shadow: 5px 5px 10px gray;
+}
