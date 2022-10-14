@@ -1,6 +1,5 @@
 @import '../base/listas';
 @import '../base/estilosGenerales';
-
 .main-banner {
     .div-banner {
         display: grid;
@@ -31,26 +30,18 @@
 }
 
 .main-cards {
-    display: grid;
-    justify-content: center;
-
-
     .div-card-index {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        width: 80%;
-        height: 20% auto;
-        margin: 40px;
-
         .card {
-            display: grid;
+            justify-content: center;
+            align-content: center;
             justify-items: center;
             align-items: center;
             box-shadow: 5px 5px 10px gray;
             border-radius: 20px;
             width: 300px;
             height: 400px;
-            margin: 30px;
+            margin: 10px;
+
 
             .titulo-card {
                 margin: 10px;
@@ -58,7 +49,7 @@
                 font-size: 20px;
                 text-align: center;
                 font-weight: 600;
-                color: nth($colores,2);
+                color: nth($colores, 2);
             }
 
             .img-card {
@@ -74,31 +65,10 @@
                 font-size: 15px;
                 text-align: center;
                 font-weight: 400;
-                color: nth($colores,5);
+                color: nth($colores, 5);
             }
         }
-    }
-
- 
-    @media only screen and (max-width:600px) {
 
 
-        .div-card-index {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-        }
-
-        .titulo-card {
-            font-size: 10px;
-            text-align: center;
-            font-weight: 500;
-        }
-
-    }
-
-    @media screen and (min-width:601px) and (max-width:950px) {
-        .div-card-index {
-            grid-template-columns: repeat(2, 1fr);
-        }
     }
 }

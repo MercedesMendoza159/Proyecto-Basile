@@ -4,13 +4,10 @@
   padding: 0;
 }
 
-h1 {
-  grid-column: 1/4;
-  margin: 30px;
+.titulo {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 40px;
-  text-align: center;
 }
 
 .contenedor-principal {
@@ -69,13 +66,10 @@ footer .footer .div-footer div .margin-footer .text-footer {
   padding: 0;
 }
 
-h1 {
-  grid-column: 1/4;
-  margin: 30px;
+.titulo {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 40px;
-  text-align: center;
 }
 
 .contenedor-principal {
@@ -108,26 +102,16 @@ h1 {
   height: auto;
 }
 
-.main-cards {
-  display: grid;
-  justify-content: center;
-}
-.main-cards .div-card-index {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  width: 80%;
-  height: 20% auto;
-  margin: 40px;
-}
 .main-cards .div-card-index .card {
-  display: grid;
+  justify-content: center;
+  align-content: center;
   justify-items: center;
   align-items: center;
   box-shadow: 5px 5px 10px gray;
   border-radius: 20px;
   width: 300px;
   height: 400px;
-  margin: 30px;
+  margin: 10px;
 }
 .main-cards .div-card-index .card .titulo-card {
   margin: 10px;
@@ -150,22 +134,6 @@ h1 {
   text-align: center;
   font-weight: 400;
   color: gray;
-}
-@media only screen and (max-width: 600px) {
-  .main-cards .div-card-index {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .main-cards .titulo-card {
-    font-size: 10px;
-    text-align: center;
-    font-weight: 500;
-  }
-}
-@media screen and (min-width: 601px) and (max-width: 950px) {
-  .main-cards .div-card-index {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 .titulo {
@@ -210,7 +178,6 @@ h1 {
 .div-productos .contenedor-prod {
   border-radius: 20px;
   box-shadow: 5px 5px 10px gray;
-  position: relative;
   display: grid;
   justify-items: center;
 }
@@ -288,13 +255,10 @@ h1 {
   padding: 0;
 }
 
-h1 {
-  grid-column: 1/4;
-  margin: 30px;
+.titulo {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 40px;
-  text-align: center;
 }
 
 .contenedor-principal {
