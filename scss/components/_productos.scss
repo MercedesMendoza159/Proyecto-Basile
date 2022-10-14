@@ -15,7 +15,16 @@
     @media screen and (min-width:601px) and (max-width:900px) {
         width: 90%;
     }
-
+    
+    .titulo-productos{
+        grid-column: 1 / 4;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color: nth($colores,6);
+        background-color: nth($colores,3);
+        margin: 30px;
+        border-radius: 5px;
+    }
 
     .contenedor-prod {
         border-radius: 20px;

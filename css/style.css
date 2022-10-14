@@ -175,6 +175,15 @@ footer .footer .div-footer div .margin-footer .text-footer {
     width: 90%;
   }
 }
+.div-productos .titulo-productos {
+  grid-column: 1/4;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: #5A7866;
+  margin: 30px;
+  border-radius: 5px;
+}
 .div-productos .contenedor-prod {
   border-radius: 20px;
   box-shadow: 5px 5px 10px gray;
