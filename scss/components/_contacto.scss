@@ -1,7 +1,9 @@
 @import '../base/listas';
+@import '../base/extend';
 
 .container{
-    .formulario {
+    .contenedor-principal {
+        @extend %contenedor-principal;
         .texto-formulario {
             color: #3F3F3F;
             text-align: center;

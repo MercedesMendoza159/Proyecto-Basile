@@ -1,4 +1,5 @@
 @import '../base/listas';
+@import '../base/extend';
 
 .div-productos {
     display: grid;
@@ -27,8 +28,7 @@
     }
 
     .contenedor-prod {
-        border-radius: 20px;
-        box-shadow: 5px 5px 10px gray;
+        @extend %contenedor-principal;
         display: grid;
         justify-items: center;
 

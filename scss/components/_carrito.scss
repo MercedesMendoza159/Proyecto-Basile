@@ -1,8 +1,10 @@
 @import '../base/listas';
 @import '../base/estilosGenerales';
+@import '../base/extend';
 
 .main-carrito{
     .contenedor-principal{
+        @extend %contenedor-principal;
         .calcular{
             border-bottom: solid 1px gray;
         }
