@@ -1,5 +1,5 @@
 /*import*/
-.main-carrito .contenedor-principal, .container .contenedor-principal, .div-productos .contenedor-prod, .main-cards .div-card-index .card {
+.main-carrito .contenedor-principal, .container .contenedor-principal, .div-productos .contenedor-prod, .section-cards .div-card-index .card {
   margin: 10px;
   border: #3F3F3F;
   border-radius: 15px;
@@ -72,37 +72,37 @@ footer .footer .div-footer div .margin-footer .text-footer {
   font-size: 40px;
 }
 
-.main-carrito .contenedor-principal, .container .contenedor-principal, .div-productos .contenedor-prod, .main-cards .div-card-index .card {
+.main-carrito .contenedor-principal, .container .contenedor-principal, .div-productos .contenedor-prod, .section-cards .div-card-index .card {
   margin: 10px;
   border: #3F3F3F;
   border-radius: 15px;
   box-shadow: 5px 5px 10px #3F3F3F;
 }
 
-.main-banner .div-banner {
+.section-banner .div-banner {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
   height: auto;
 }
-.main-banner .div-banner .banner {
+.section-banner .div-banner .banner {
   display: grid;
   width: 100%;
 }
-.main-banner .div-banner .banner .banner-primera {
+.section-banner .div-banner .banner .banner-primera {
   width: 100%;
   height: auto;
 }
-.main-banner .div-banner .banner .banner-segunda {
+.section-banner .div-banner .banner .banner-segunda {
   width: 100%;
   height: auto;
 }
-.main-banner .div-banner .banner .banner-tercera {
+.section-banner .div-banner .banner .banner-tercera {
   width: 100%;
   height: auto;
 }
 
-.main-cards .div-card-index .card {
+.section-cards .div-card-index .card {
   justify-content: center;
   align-content: center;
   justify-items: center;
@@ -110,7 +110,7 @@ footer .footer .div-footer div .margin-footer .text-footer {
   width: 300px;
   height: 400px;
 }
-.main-cards .div-card-index .card .titulo-card {
+.section-cards .div-card-index .card .titulo-card {
   margin: 10px;
   font-family: sans-serif;
   font-size: 20px;
@@ -118,13 +118,13 @@ footer .footer .div-footer div .margin-footer .text-footer {
   font-weight: 600;
   color: #416A96;
 }
-.main-cards .div-card-index .card .img-card {
+.section-cards .div-card-index .card .img-card {
   width: 150px;
   height: auto;
   margin: 10px;
   padding: 10px;
 }
-.main-cards .div-card-index .card .p-card {
+.section-cards .div-card-index .card .p-card {
   margin: 10px;
   font-family: sans-serif;
   font-size: 15px;
@@ -154,7 +154,7 @@ footer .footer .div-footer div .margin-footer .text-footer {
   }
 }
 
-.main-carrito .contenedor-principal, .container .contenedor-principal, .div-productos .contenedor-prod, .main-cards .div-card-index .card {
+.main-carrito .contenedor-principal, .container .contenedor-principal, .div-productos .contenedor-prod, .section-cards .div-card-index .card {
   margin: 10px;
   border: #3F3F3F;
   border-radius: 15px;
@@ -243,7 +243,7 @@ footer .footer .div-footer div .margin-footer .text-footer {
   color: white;
 }
 
-.main-carrito .contenedor-principal, .container .contenedor-principal, .main-cards .div-card-index .card, .div-productos .contenedor-prod {
+.main-carrito .contenedor-principal, .container .contenedor-principal, .section-cards .div-card-index .card, .div-productos .contenedor-prod {
   margin: 10px;
   border: #3F3F3F;
   border-radius: 15px;
@@ -279,7 +279,7 @@ footer .footer .div-footer div .margin-footer .text-footer {
   font-size: 40px;
 }
 
-.main-carrito .contenedor-principal, .main-cards .div-card-index .card, .div-productos .contenedor-prod, .container .contenedor-principal {
+.main-carrito .contenedor-principal, .section-cards .div-card-index .card, .div-productos .contenedor-prod, .container .contenedor-principal {
   margin: 10px;
   border: #3F3F3F;
   border-radius: 15px;

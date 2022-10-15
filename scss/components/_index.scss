@@ -1,7 +1,9 @@
 @import '../base/listas';
 @import '../base/estilosGenerales';
 @import '../base/extend';
-.main-banner {
+
+
+.section-banner {
     .div-banner {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -30,7 +32,7 @@
     }
 }
 
-.main-cards {
+.section-cards {
     .div-card-index {
         .card {
             justify-content: center;
