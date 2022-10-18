@@ -1,7 +1,7 @@
 @import '../base/listas';
 @import '../base/extend';
 
-.div-productos {
+.section-productos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 65%;
