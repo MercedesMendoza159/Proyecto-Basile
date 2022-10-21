@@ -2,26 +2,21 @@
 @import '../base/estilosGenerales';
 @import '../base/extend';
 
-.main-carrito{
-    .contenedor-principal{
+.section-carrito {
+    .contenedor-principal {
         @extend %contenedor-principal;
-        .calcular{
-            border-bottom: solid 1px gray;
-        }
-        .total{
-            padding-bottom: 20px;
-        }
-        .precio{
-            padding-bottom: 20px;
-        }
 
     }
+   
+    .precio-final{
 
-    @media only screen and (max-width: 2000px){
-        .espacio-en-blanco{
-            visibility: hidden;
-        }
-        
+        display: flex;
+        justify-content:right;
+        padding: 15px;
     }
+
+    .precio{
+        margin-right: 10px;
+    }
+
 }
-

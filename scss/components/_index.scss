@@ -4,30 +4,9 @@
 
 .section-banner {
     .div-banner {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
         width: 100%;
         height: auto;
 
-        .banner {
-            display: grid;
-            width: 100%;
-
-            .banner-primera {
-                width: 100%;
-                height: auto;
-            }
-
-            .banner-segunda {
-                width: 100%;
-                height: auto;
-            }
-
-            .banner-tercera {
-                width: 100%;
-                height: auto;
-            }
-        }
     }
 }
 

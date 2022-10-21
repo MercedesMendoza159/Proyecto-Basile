@@ -1,31 +1,47 @@
 @import '../base/listas';
 
 header {
-    .header-logo {
-        width: 100px;
-        height: auto;
-        display: flex;
-    }
+    .contenedor-nav {
+        .header-logo {
+            width: 100px;
+            height: auto;
+            display: flex;
+        }
 
-    .ul-menu {
-        .list {
-            border-radius: 10px;
+        .lista-nav {
+            .ul-menu {
+                .list {
+                    border-radius: 10px;
+                    margin: 20px;
+                }
+
+                .li-hover:hover {
+                    transform: scale(1.1);
+                    background-color: nth($colores, 2);
+
+                }
+
+                .li-trans {
+                    transition-property: all;
+                    transition-duration: 2s;
+                }
+
+                a:hover {
+                    color: white;
+                }
+            }
+
+        }
+
+        .usuario-y-carrito{
+            .usuario-nav{
+                color: nth($colores,1);
+                margin: 5px;
+            }
+        }
+        .carrito-nav{
+            color: nth($colores,1);
             margin: 20px;
-        }
-
-        .li-hover:hover {
-            transform: scale(1.1);
-            background-color: nth($colores,2);
-            
-        }
-
-        .li-trans {
-            transition-property: all;
-            transition-duration: 2s;
-        }
-
-        a:hover {
-            color: white;
         }
     }
 }

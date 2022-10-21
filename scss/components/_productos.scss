@@ -7,7 +7,6 @@
     width: 65%;
     margin: 20px auto;
     padding: 10px;
-    gap: 30px;
 
     @media only screen and (max-width:600px) {
         width: 80%;
@@ -36,31 +35,26 @@
             grid-column: 1 / 4;
         }
 
-        &:hover {
-            transform: scale(1.1);
-            background-color: nth($colores,2);
-            transition-property: all;
-            transition-duration: 2s;
-            color: white;
-        }
-
         .img-prod {
-            width: 95%;
+            width: 100%;
             height: auto;
             object-fit: cover;
-            margin: 10px;
-            padding: 10px;
-            border-radius: 30px;
+            margin-bottom: 10px;
         }
 
         .p-titulo-prod {
             font-family: sans-serif;
             font-size: 20px;
-            margin: 10px;
+            margin: 3px;
+            text-align: center;
         }
 
-        .precio-carrito {
+        .contenedor-precio-carrito {
+            width: 100%;
             display: flex;
+            justify-content: space-around;
+            align-items: center;
+           
 
             .carrito {
                 color: nth($colores,4);
@@ -70,23 +64,17 @@
                     transform: scale(1.1);
                     transition-property: all;
                     transition-duration: 2s;
-                    color: nth($colores,6);
                 }
             }
         }
 
         .p-desc-prod {
+            margin: 5px;
             font-family: sans-serif;
+            text-align: center;
             font-size: 15px;
             color: nth($colores,5);
 
-            &:hover {
-                transform: scale(1.1);
-                background-color: nth($colores,2);
-                transition-property: all;
-                transition-duration: 2s;
-                color: white;
-            }
         }
     }
 }
