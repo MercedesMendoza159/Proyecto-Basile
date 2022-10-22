@@ -12,6 +12,9 @@
 
 .section-cards {
     .div-card-index {
+        .titulo{
+            @extend %titulo;
+        }
         .card {
             justify-content: center;
             align-content: center;

@@ -1,27 +1,35 @@
 @import '../base/listas';
 @import '../base/extend';
 
-.container{
-    .contenedor-principal {
-        @extend %contenedor-principal;
-        .texto-formulario {
-            color: #3F3F3F;
-            text-align: center;
-            font-weight: 200;
-        }
+main {
+    .titulo {
+        @extend %titulo;
+    }
 
-        .boton-enviar {
-            margin-top: 10px;
-            text-align: right;
-        }
+    .section-contacto {
+        .contenedor-principal {
+            @extend %contenedor-principal;
 
-        div {
-            .icono-redes {
-                color: nth($colores,2);
-                &:hover {
-                    transform: scale(1.1);
-                    transition-property: all;
-                    transition-duration: 1s;
+            .texto-formulario {
+                color: #3F3F3F;
+                text-align: center;
+                font-weight: 200;
+            }
+
+            .boton-enviar {
+                margin-top: 10px;
+                text-align: right;
+            }
+
+            div {
+                .icono-redes {
+                    color: nth($colores, 2);
+
+                    &:hover {
+                        transform: scale(1.1);
+                        transition-property: all;
+                        transition-duration: 1s;
+                    }
                 }
             }
         }
