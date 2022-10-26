@@ -1,13 +1,14 @@
 @import '../base/listas';
 
 
+.main-nosotros {
 
-.titulo {
+  .titulo {
     @extend %titulo;
+  }
+
+  .section-nosotros {
+    margin: 0% 5%;
+  }
+
 }
-
-.section-nosotros{
-  margin: 0% 5%;
-}
-
-

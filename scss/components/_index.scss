@@ -2,55 +2,60 @@
 @import '../base/estilosGenerales';
 @import '../base/extend';
 
-.section-banner {
-    .div-banner {
-        width: 100%;
-        height: auto;
 
+.main-index {
+
+    .section-banner {
+        .div-banner {
+            width: 100%;
+            height: auto;
+
+        }
     }
-}
 
-.section-cards {
-    .div-card-index {
-        .titulo{
-            @extend %titulo;
+    .section-cards {
+        .div-card-index {
+            .titulo {
+                @extend %titulo;
+            }
+
+            .card {
+                justify-content: center;
+                align-content: center;
+                justify-items: center;
+                align-items: center;
+                width: 300px;
+                height: 400px;
+                @extend %contenedor-principal;
+
+
+                .titulo-card {
+                    margin: 10px;
+                    font-family: sans-serif;
+                    font-size: 20px;
+                    text-align: center;
+                    font-weight: 600;
+                    color: nth($colores, 2);
+                }
+
+                .img-card {
+                    width: 150px;
+                    height: auto;
+                    margin: 10px;
+                    padding: 10px;
+                }
+
+                .p-card {
+                    margin: 10px;
+                    font-family: sans-serif;
+                    font-size: 15px;
+                    text-align: center;
+                    font-weight: 400;
+                    color: nth($colores, 5);
+                }
+            }
+
+
         }
-        .card {
-            justify-content: center;
-            align-content: center;
-            justify-items: center;
-            align-items: center;
-            width: 300px;
-            height: 400px;
-            @extend %contenedor-principal;
-
-
-            .titulo-card {
-                margin: 10px;
-                font-family: sans-serif;
-                font-size: 20px;
-                text-align: center;
-                font-weight: 600;
-                color: nth($colores, 2);
-            }
-
-            .img-card {
-                width: 150px;
-                height: auto;
-                margin: 10px;
-                padding: 10px;
-            }
-
-            .p-card {
-                margin: 10px;
-                font-family: sans-serif;
-                font-size: 15px;
-                text-align: center;
-                font-weight: 400;
-                color: nth($colores, 5);
-            }
-        }
-
-
     }
 }

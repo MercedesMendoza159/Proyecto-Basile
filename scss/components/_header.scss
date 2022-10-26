@@ -1,6 +1,21 @@
 @import '../base/listas';
 
 header {
+    .div-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        color: white;
+        .texto-bar{
+            align-items: center;
+            font-weight: 100;
+            font-size: 15px;
+            margin-top: 6px;
+        }
+      }
     .contenedor-nav {
         .header-logo {
             width: 100px;
