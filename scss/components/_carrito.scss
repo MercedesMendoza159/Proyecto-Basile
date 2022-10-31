@@ -3,20 +3,16 @@
 @import '../base/extend';
 
 .section-carrito {
-    .contenedor-principal {
+    .div-carrito {
         @extend %contenedor-principal;
-
-    }
-   
-    .precio-final{
-
-        display: flex;
-        justify-content:right;
-        padding: 15px;
-    }
-
-    .precio{
-        margin-right: 10px;
+        .precio{
+            border-top: solid 1px black;
+           }
+        
+           .continuar{
+            display: flex;
+            justify-content: end;
+           }
     }
 
 }

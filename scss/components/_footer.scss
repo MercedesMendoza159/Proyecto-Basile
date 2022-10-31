@@ -5,6 +5,7 @@ footer{
     color: white;
     .footer{
         text-align: center;
+
         .div-footer{
             text-align: center;
             div{
@@ -12,7 +13,7 @@ footer{
                     color: gray;
                 }
                 .margin-footer{
-                    margin: 20px;
+                    padding: 10px;
                     color: white;
                     font-weight: 400;
                     
@@ -22,6 +23,21 @@ footer{
                     }
                 }
             }
+        }
+    }
+    .div-bar-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        background-color: nth($colores, 7);
+        color: nth($colores, 6);
+        .texto-bar-footer{
+            align-items: center;
+            font-weight: 100;
+            font-size: 15px;
+            margin-top: 6px;
         }
     }
 }

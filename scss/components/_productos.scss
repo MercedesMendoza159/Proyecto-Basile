@@ -61,8 +61,12 @@ main {
 
 
                 .carrito {
-                    color: nth($colores, 4);
+                    color: nth($colores, 6);
+                    background-color: nth($colores, 7);
+                    border-radius: 20px;
                     margin-bottom: 5px;
+                    padding: 7px;
+
 
                     &:hover {
                         transform: scale(1.1);

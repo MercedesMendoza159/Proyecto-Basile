@@ -1,5 +1,5 @@
 /*import*/
-.section-carrito .contenedor-principal, main .section-contacto .contenedor-principal, main .section-productos .contenedor-prod, .main-index .section-cards .div-card-index .card {
+.section-carrito .div-carrito, main .section-contacto .contenedor-principal, main .section-productos .contenedor-prod, .main-index .section-cards .div-card-index .card {
   margin: 30px;
   border: #3F3F3F;
   box-shadow: 5px 5px 10px #3F3F3F;
@@ -77,7 +77,7 @@ footer .footer .div-footer div .titulo-footer {
   color: gray;
 }
 footer .footer .div-footer div .margin-footer {
-  margin: 20px;
+  padding: 10px;
   color: white;
   font-weight: 400;
 }
@@ -85,13 +85,28 @@ footer .footer .div-footer div .margin-footer .text-footer {
   text-decoration: none;
   color: white;
 }
+footer .div-bar-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+}
+footer .div-bar-footer .texto-bar-footer {
+  align-items: center;
+  font-weight: 100;
+  font-size: 15px;
+  margin-top: 6px;
+}
 
 * {
   margin: 0;
   padding: 0;
 }
 
-.section-carrito .contenedor-principal, main .section-contacto .contenedor-principal, main .section-productos .contenedor-prod, .main-index .section-cards .div-card-index .card {
+.section-carrito .div-carrito, main .section-contacto .contenedor-principal, main .section-productos .contenedor-prod, .main-index .section-cards .div-card-index .card {
   margin: 30px;
   border: #3F3F3F;
   box-shadow: 5px 5px 10px #3F3F3F;
@@ -127,7 +142,7 @@ main .titulo, .main-nosotros .titulo, .main-index .section-cards .div-card-index
   color: #416A96;
 }
 .main-index .section-cards .div-card-index .card .img-card {
-  width: 150px;
+  width: 200px;
   height: auto;
   margin: 10px;
   padding: 10px;
@@ -145,7 +160,7 @@ main .titulo, .main-nosotros .titulo, .main-index .section-cards .div-card-index
   margin: 0% 5%;
 }
 
-.section-carrito .contenedor-principal, main .section-contacto .contenedor-principal, main .section-productos .contenedor-prod, .main-index .section-cards .div-card-index .card {
+.section-carrito .div-carrito, main .section-contacto .contenedor-principal, main .section-productos .contenedor-prod, .main-index .section-cards .div-card-index .card {
   margin: 30px;
   border: #3F3F3F;
   box-shadow: 5px 5px 10px #3F3F3F;
@@ -214,8 +229,11 @@ main .section-productos .contenedor-prod .contenedor-precio-carrito {
   align-items: center;
 }
 main .section-productos .contenedor-prod .contenedor-precio-carrito .carrito {
-  color: #191919;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
   margin-bottom: 5px;
+  padding: 7px;
 }
 main .section-productos .contenedor-prod .contenedor-precio-carrito .carrito:hover {
   transform: scale(1.1);
@@ -230,7 +248,7 @@ main .section-productos .contenedor-prod .p-desc-prod {
   color: gray;
 }
 
-.section-carrito .contenedor-principal, main .section-contacto .contenedor-principal, .main-index .section-cards .div-card-index .card, main .section-productos .contenedor-prod {
+.section-carrito .div-carrito, main .section-contacto .contenedor-principal, .main-index .section-cards .div-card-index .card, main .section-productos .contenedor-prod {
   margin: 30px;
   border: #3F3F3F;
   box-shadow: 5px 5px 10px #3F3F3F;
@@ -268,7 +286,7 @@ main .section-contacto .contenedor-principal div .icono-redes:hover {
   padding: 0;
 }
 
-.section-carrito .contenedor-principal, .main-index .section-cards .div-card-index .card, main .section-productos .contenedor-prod, main .section-contacto .contenedor-principal {
+.section-carrito .div-carrito, .main-index .section-cards .div-card-index .card, main .section-productos .contenedor-prod, main .section-contacto .contenedor-principal {
   margin: 30px;
   border: #3F3F3F;
   box-shadow: 5px 5px 10px #3F3F3F;
@@ -283,13 +301,12 @@ main .section-contacto .contenedor-principal div .icono-redes:hover {
   font-size: 40px;
 }
 
-.section-carrito .precio-final {
-  display: flex;
-  justify-content: right;
-  padding: 15px;
+.section-carrito .div-carrito .precio {
+  border-top: solid 1px black;
 }
-.section-carrito .precio {
-  margin-right: 10px;
+.section-carrito .div-carrito .continuar {
+  display: flex;
+  justify-content: end;
 }
 
 /*# sourceMappingURL=style.css.map */
