@@ -11,7 +11,7 @@ main {
             @extend %contenedor-principal;
 
             .texto-formulario {
-                color: #3F3F3F;
+                color: nth($colores, 4);
                 text-align: center;
                 font-weight: 200;
             }

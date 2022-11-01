@@ -36,7 +36,7 @@ footer{
         .texto-bar-footer{
             align-items: center;
             font-weight: 100;
-            font-size: 15px;
+            font-size: nth($font-size, 1);
             margin-top: 6px;
         }
     }
